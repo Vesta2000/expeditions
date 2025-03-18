@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML Lists, Images, Tables & Forms</title>
+        </head>
+        <body>
+            <h2>Ordered Lists</h2>
+            <ol type= 'a' start="1">
+                <li>Kenya</li>
+                <li>South Africa</li>
+                <li>Nigeria</li>
+            </ol>
+            <h2>Unordered Lists</h2>
+            <ul type="circle">
+                <li>Ghana</li>
+                <li>Spain</li>
+                <li>South Sudan</li>
+            </ul>
+            <h2>Definition Lists</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Mark-up Language</dd>
+            </dl>
+            <h2>Images</h2>
+            <h3>Internal Images</h3>
+            <img src="me.jpg" alt="Image of Sylvester Wanina" height="250" width="250">
+            <h3>External Images</h3>
+            <img src="https://images.pexels.com/photos/14878587/pexels-photo-14878587.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"
+             alt="Image of a mountain" height="250" width="250">
+            <h2>HTML Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eddy</td>
+                        <td>25</td>
+                        <td>Kenya</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>35</td>
+                        <td>Nigeria</td>
+                    </tr>
+                    <tr>
+                        <td>Moses</td>
+                        <td>32</td>
+                        <td>South Africa</td>
+                    </tr>
+                    <tr>
+                        <td>Harry</td>
+                        <td>25</td>
+                        <td>Uganda</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>Kenya</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <h2>HTML Forms</h2>
+            <!--Start of form-->
+            <form action="" method="">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="Your Full Name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="johndoe@example.com">
+                <br><br>
+                <label for="password:">Password:</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="address:">Address:</label>
+                <input type="address" id="address" name="address" placeholder="address">
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="female"> Female 
+                <input type="radio" name="gender" value="male"> Male
+                <br><br>
+                <label for="hobby">Hobbies:</label>
+                <input type="checkbox" name="hobby" value="travel"> Travel
+                <input type="checkbox" name="hobby" value="music"> Music
+                <input type="checkbox" name="hobby" value="reading"> Reading 
+                <input type="checkbox" name="hobby" value="swimming"> Swimming
+                <br><br>
+                <label for="country">Country:</label>
+                <select name="country" id="country" multiple>
+                    <option value="">--Select Country--</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+                <input type="reset" value="Cancel/Reset">
+            </form>
+            <!--End of form-->
+        </body>
+    </html>
